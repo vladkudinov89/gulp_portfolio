@@ -1,0 +1,94 @@
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .bg-brouse{
+     background: none;
+     padding: 0;
+     height: 450px;
+
+    .nano{
+      height: 450px;
+    }
+
+   }
+}
+
+@media (max-width: 767px) {
+
+  .portfolio-item-about{
+    .button{
+      padding: 15px 40px;
+    }
+    .btn-4a:before {
+      left: 100%;
+      top: -8px;
+    }
+  }
+
+
+
+  .calltoaction {
+    text-align: center;
+  }
+  .is-sticky{
+    overflow: hidden !important;
+  }
+  h1 {
+    font-size: 30px !important;
+    letter-spacing: 3px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0 0 30px;
+    letter-spacing: 3px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0 0 30px;
+    letter-spacing: 3px;
+  }
+
+
+
+  .navbar-brand{
+    font-size: 16px !important;
+  }
+
+}
+
+/*
+
+!* Example for media query *!
+@media screen and (max-width: 30.6em) {
+
+  .cbp-qtrotator {
+    font-size: 70%;
+  }
+
+  .cbp-qtrotator img {
+    width: 80px;
+  }
+
+}*/

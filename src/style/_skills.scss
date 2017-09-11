@@ -1,0 +1,53 @@
+.skills-block{
+  background: transparent url(../img/html.jpg) 60% 0 no-repeat;
+  background-attachment:fixed;
+  position: relative;
+  background-size: cover;
+
+  &:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.93);
+  }
+}
+
+
+.chart {
+  display: inline-block;
+  height: 140px;
+  margin: 50px 0;
+  position: relative;
+  text-align: center;
+  width: 140px;
+}
+
+.chart canvas {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.percent {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 140px;
+  z-index: 2;
+}
+
+.percent:after {
+  content: "%";
+  font-size: 50%;
+  margin-left: 0.1em;
+}
+
+.skills-name{
+  font-weight: 800;
+  color: $main-color;
+}
+

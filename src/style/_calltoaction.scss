@@ -1,0 +1,43 @@
+.calltoaction * {
+  text-align: center;
+}
+
+.calltoaction {
+  background: rgb(105, 109, 103);
+  background-size: cover;
+  padding: 50px 0;
+  margin: 100px 0;
+  transition: 0.5s linear;
+}
+
+.calltoaction h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.calltoaction-decription {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.calltoaction-btn {
+  text-align: center;
+}
+
+.calltoaction-btn > .btn {
+  background: $main-color;
+  color: #fff;
+  text-transform: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.3s linear;
+}
+
+/*
+.calltoaction-btn > .btn:hover {
+  background: #fff;
+  color: $main-color;
+}*/

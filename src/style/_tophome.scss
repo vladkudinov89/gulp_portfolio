@@ -1,0 +1,49 @@
+/* ---------------------------------------------- /*
+ * Home
+/* ---------------------------------------------- */
+
+#home {
+  background: $main-color url(../img/skills-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.intro {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  transform: translate(0%, -50%);
+  padding: 0 15px;
+}
+
+.intro h1 {
+  font-weight: 800;
+}
+
+.green {
+  color: $main-color !important;
+}
+
+.start {
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  text-transform: none;
+  margin: 15px 0;
+  color: #fff;
+}
